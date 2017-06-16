@@ -1,0 +1,25 @@
+.btn {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 2px solid white;
+  color: white;
+}
+
+.btn:hover {
+  transition: all 0.3s ease;
+  color: purple;;
+}
+
+.btn:not(:hover) {
+  transition: all 0.5s ease;
+}
+
+.btn:active {
+  color: coral;
+}
