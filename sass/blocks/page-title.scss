@@ -1,0 +1,28 @@
+.page-title {
+  z-index: 1;
+  position: absolute;
+  top: 396px;
+  left: 694px;
+  text-align: center;
+}
+
+.page-title>h1 {
+  margin: 0;
+  margin-bottom: 12px;
+  padding: 0;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+
+.page-title>p {
+  margin-bottom: 34px;
+  font-size: 28px;
+  font-weight: 100;
+  color: white;
+}
+
+.page-title__inner {
+  color: #fcff19;
+}

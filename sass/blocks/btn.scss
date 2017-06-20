@@ -1,19 +1,22 @@
-.btn {
+.btn,
+.btn__categories {
   display: block;
-  width: 200px;
+  width: 124px;
   margin: 0 auto;
-  font-size: 18px;
+  font-size: 12px;
   font-weight: bold;
-  line-height: 48px;
+  line-height: 43px;
   text-align: center;
   text-transform: uppercase;
-  border: 2px solid white;
-  color: white;
+  background-color: black;
+  border-radius: 10px;
+  color: #fcff19;
 }
 
 .btn:hover {
   transition: all 0.3s ease;
-  color: purple;;
+  color: purple;
+  ;
 }
 
 .btn:not(:hover) {
@@ -22,4 +25,16 @@
 
 .btn:active {
   color: coral;
+}
+
+.btn__categories {
+  display: none;
+  position: absolute;
+  left: 33%;
+  top: 75%;
+}
+
+.categories__item:hover .btn__categories {
+  display: block;
+  transition: all 0.5s ease;
 }
