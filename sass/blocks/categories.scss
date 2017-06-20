@@ -9,7 +9,8 @@
 }
 
 .categories__wrapper {
-  width: 1097px;
+  // width: 1097px;
+  width: calc(100% - 404px);
   margin: 0 auto;
   text-align: center;
 }
@@ -29,6 +30,7 @@
 
 .categories__item {
   position: relative;
+  min-width: 346px;
 }
 
 .categories__item::before {
@@ -45,6 +47,10 @@
 }
 
 .categories__item:hover::before {
+  display: block;
+}
+
+.categories__item:hover .btn__categories {
   display: block;
 }
 

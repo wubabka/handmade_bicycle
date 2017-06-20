@@ -1,5 +1,6 @@
 .btn,
-.btn__categories {
+.btn__categories,
+.btn__popular {
   display: block;
   width: 124px;
   margin: 0 auto;
@@ -13,28 +14,44 @@
   color: #fcff19;
 }
 
-.btn:hover {
-  transition: all 0.3s ease;
-  color: purple;
-  ;
-}
-
-.btn:not(:hover) {
-  transition: all 0.5s ease;
-}
-
-.btn:active {
-  color: coral;
-}
-
 .btn__categories {
   display: none;
   position: absolute;
   left: 33%;
   top: 75%;
+  background-color: transparent;
+  border: 3px solid white;
 }
 
-.categories__item:hover .btn__categories {
-  display: block;
+.btn__popular {
+  width: 96px;
+  background-color: #b7b7b7;
+  color: white;
+}
+
+.btn__popular:hover {
+  background-color: black;
+  color: #fcff19;
   transition: all 0.5s ease;
+}
+
+.btn__popular:not(:hover) {
+  transition: all 0.5s ease;  
+}
+
+.btn:hover,
+.btn__categories:hover {
+  transition: all 0.5s ease;
+  color: purple;
+  ;
+}
+
+.btn:not(:hover),
+.btn__categories:not(:hover) {
+  transition: all 0.5s ease;
+}
+
+.btn:active,
+.btn__categories:active {
+  color: coral;
 }

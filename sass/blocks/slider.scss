@@ -33,7 +33,8 @@
   background-image: url("../img/left-arrow.png");
 }
 
-.slider__prev:hover {
+.slider__prev:hover,
+.slider__prev:active {
   background-image: url("../img/left-arrow-active.png");
 }
 
@@ -42,7 +43,8 @@
   background: url("../img/right-arrow.png");
 }
 
-.slider__next:hover {
+.slider__next:hover,
+.slider__next:active {
   background: url("../img/right-arrow-active.png");
 }
 
