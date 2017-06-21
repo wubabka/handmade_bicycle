@@ -1,13 +1,13 @@
 .popular {
   position: relative;
   z-index: 1;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-color: white;
 }
 
 .popular__wrapper {
-  width: calc(100% - 23px);
+  width: calc(100% - 50px);
   margin: 0 auto;
   text-align: center;
 }
@@ -22,7 +22,7 @@
 .popular__items {
   display: flex;
   justify-content: space-between;
-  margin-top: 5%;
+  margin-top: 15vh;
 }
 
 .popular__item {

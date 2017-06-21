@@ -30,6 +30,14 @@ button {
   outline: none;
 }
 
+textarea {
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  font-family: inherit;
+}
+
 ul {
   list-style: none;
 }

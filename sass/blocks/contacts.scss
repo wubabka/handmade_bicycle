@@ -1,0 +1,31 @@
+.contacts {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/contacts-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contacts__wrapper {
+  // width: calc(100% - 404px);
+  width: 450px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contacts__title {
+  padding-top: 60px;
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.contacts__text {
+  margin-top: 60px;
+  font-size: 15px;
+  font-weight: 400;
+}

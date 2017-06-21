@@ -5,8 +5,8 @@
 
 .slider__slide {
   position: absolute;
-  height: 100%;
-  width: 100%;
+  width: 100vw;  
+  height: 100vh;
 }
 
 .slider .slider__slide:target {
@@ -49,8 +49,8 @@
 }
 
 .slider__img {
-  max-width: 100%;
-  width: 100%;
+  max-width: 100vw;
+  width: 100vw;
   position: fixed;
   left: 0;
 }

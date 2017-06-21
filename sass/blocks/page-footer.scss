@@ -1,0 +1,22 @@
+.page-footer {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  z-index: 1;
+  margin-top: 28vh;
+  width: 100vw;
+  background-color: #fcff19;
+}
+
+.page-footer .main-nav__item>a {
+  color: black;  
+}
+
+.page-footer .main-nav__item>a:hover {
+  color: white;
+}
+
+.page-footer .page-header__logo {
+  margin-top: 1vh;
+  min-width: 115px;
+}

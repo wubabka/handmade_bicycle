@@ -3,7 +3,14 @@
   position: absolute;
   top: 20px;
   left: 21%;
+  // left: 694px;
   display: flex;
   justify-content: space-between;
-  width: calc(100% - 404px);
+  // width: calc(100% - 404px);
+  width: 1097px;
+}
+
+.page-header__logo {
+  width: 160px;
+  height: 50px;
 }

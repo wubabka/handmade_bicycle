@@ -180,12 +180,38 @@
       </div>
     </div>
   </section>
+
   <section class="contacts">
-
+    <div class="contacts__wrapper">
+      <h2 class="contacts__title">Contact us</h2>
+      <p class="contacts__text">
+        Please contact us for all inquiries and purchase options.
+      </p>
+      <form action="#" class="form">
+        <input type="text" class="form__name" placeholder="name">
+        <input type="text" class="form__surname" placeholder="surname">
+        <input type="email" class="form__email" placeholder="user@domain.com">
+        <textarea cols="30" rows="10" class="form__message" placeholder="message"></textarea>
+        <button class="btn__form" type="submit">send</button>
+      </form>
+    </div>
+    <footer class="page-footer">
+      <div class="page-header__logo">
+        <a href="#">
+          <img src="img/page-logo-dark.png" alt="logo-dark" width="115" height="36">
+        </a>
+      </div>
+      <nav class="main-nav">
+        <ul class="main-nav__items">
+          <li class="main-nav__item"><a href="#">bicycles</a>
+            <li class="main-nav__item"><a href="#">parts</a></li>
+            <li class="main-nav__item"><a href="#">accessories</a></li>
+            <li class="main-nav__item"><a href="#">extras</a></li>
+        </ul>
+      </nav>
+    </footer>
   </section>
-  <footer class="page-footer">
 
-  </footer>
 
   <script>
     var navMain = document.querySelector('.main-nav');
@@ -202,15 +228,6 @@
         navMain.classList.remove('main-nav--opened');
       }
     });
-
-  </script>
-
-  <script>
-    // var mainItem = document.querySelector('.main-nav__link');
-
-    // mainItem.onmous('click', function () {
-    //   mainItem.classList.add('main-nav__link--bg');
-    // })
 
   </script>
 </body>

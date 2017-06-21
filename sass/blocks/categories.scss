@@ -1,7 +1,7 @@
 .categories {
   position: relative;
   z-index: 1;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-image: url(../img/categories-bg.jpg);
   background-size: cover;
@@ -9,7 +9,6 @@
 }
 
 .categories__wrapper {
-  // width: 1097px;
   width: calc(100% - 404px);
   margin: 0 auto;
   text-align: center;
@@ -25,7 +24,7 @@
 .categories__items {
   display: flex;
   justify-content: space-between;
-  margin-top: 25%;
+  margin-top: 25vh;
 }
 
 .categories__item {

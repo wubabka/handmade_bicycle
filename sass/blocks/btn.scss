@@ -1,6 +1,7 @@
 .btn,
 .btn__categories,
-.btn__popular {
+.btn__popular,
+.btn__form {
   display: block;
   width: 124px;
   margin: 0 auto;
@@ -23,20 +24,28 @@
   border: 3px solid white;
 }
 
-.btn__popular {
+.btn__popular,
+.btn__form {
   width: 96px;
   background-color: #b7b7b7;
   color: white;
 }
 
-.btn__popular:hover {
+.btn__form {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.btn__popular:hover,
+.btn__form:hover {
   background-color: black;
   color: #fcff19;
   transition: all 0.5s ease;
 }
 
-.btn__popular:not(:hover) {
-  transition: all 0.5s ease;  
+.btn__popular:not(:hover),
+.btn__form:not(:hover) {
+  transition: all 0.5s ease;
 }
 
 .btn:hover,
