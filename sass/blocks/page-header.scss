@@ -8,12 +8,22 @@
   width: calc(100vw - 35%);
 }
 
-@media (min-width: 768px) and (max-width: 1600px) {
+@media (min-width: 780px) and (max-width: 1600px) {
   .page-header {
     top: 20px;
     left: 5%;
     display: flex;
     justify-content: space-between;
     width: calc(100vw - 15%);
+  }
+}
+
+@media (min-width: 300px) and (max-width: 779px) {
+  .page-header {
+    top: 10px;
+    left: 10%;
+  }
+  .page-header__logo {
+    width: 80px;
   }
 }

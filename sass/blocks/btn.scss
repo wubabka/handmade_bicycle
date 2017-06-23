@@ -65,7 +65,7 @@
   color: coral;
 }
 
-@media (min-width: 768px) and (max-width: 1600px) {
+@media (min-width: 780px) and (max-width: 1600px) {
   .btn__categories {
     display: block;
     left: 15%;
@@ -73,5 +73,16 @@
   }
   .btn__popular {
     width: 45px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 779px) {
+  .btn__categories {
+    display: block;
+    left: 30%;
+    top: 60%;
+  }
+  .btn__popular {
+    width: 75px;
   }
 }

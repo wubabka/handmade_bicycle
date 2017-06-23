@@ -29,9 +29,24 @@
   font-weight: 400;
 }
 
-@media (min-width: 768px) and (max-width: 1600px) {
+@media (min-width: 780px) and (max-width: 1600px) {
   .contacts {
     height: 65vh;
+  }
+  .contacts__title {
+    padding-top: 30px;
+  }
+  .contacts__text {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 779px) {
+  .contacts {
+    height: auto;
+  }
+  .contacts__wrapper {
+    width: 300px;
   }
   .contacts__title {
     padding-top: 30px;

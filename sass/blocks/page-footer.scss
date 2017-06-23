@@ -21,8 +21,15 @@
   min-width: 115px;
 }
 
-@media (min-width: 768px) and (max-width: 1600px) {
+@media (min-width: 780px) and (max-width: 1600px) {
   .page-footer {
     margin-top: 5vh;
+  }
+}
+
+
+@media (min-width: 300px) and (max-width: 779px) {
+  .page-footer .main-nav {
+    display: none;
   }
 }
