@@ -7,7 +7,7 @@
 }
 
 .popular__wrapper {
-  width: calc(100% - 50px);
+  width: calc(100% - 5%);
   margin: 0 auto;
   text-align: center;
 }
@@ -68,4 +68,40 @@
 .popular_btn {
   width: 25%;
   height: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 1600px) {
+  .popular {
+    height: 50vh;
+  }
+  .popular__wrapper {
+    width: calc(100% - 10%;);
+  }
+  .popular__title {
+    padding-top: 30px;
+  }
+  .popular__items {
+    margin-top: 10vh;
+  }
+  .popular__item {
+    min-width: 245px;
+  }
+  .popular__info {
+    width: 245px;
+    align-content: space-around;
+  }
+  .popular__name,
+  .popular__price {
+    width: 35%;
+    font-size: 12px;
+  }
+  .popular__price {
+    font-size: 14px;
+  }
+  .popular__option {
+    width: 40%;
+  }
+  .popular_btn {
+    width: 20%;
+  }
 }

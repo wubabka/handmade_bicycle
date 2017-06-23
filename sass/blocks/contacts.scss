@@ -11,7 +11,6 @@
 }
 
 .contacts__wrapper {
-  // width: calc(100% - 404px);
   width: 450px;
   margin: 0 auto;
   text-align: center;
@@ -28,4 +27,16 @@
   margin-top: 60px;
   font-size: 15px;
   font-weight: 400;
+}
+
+@media (min-width: 768px) and (max-width: 1600px) {
+  .contacts {
+    height: 65vh;
+  }
+  .contacts__title {
+    padding-top: 30px;
+  }
+  .contacts__text {
+    margin-top: 30px;
+  }
 }

@@ -1,6 +1,5 @@
 .main-nav {
   margin-top: 20px;
-  // width: 40.5%;
 }
 
 .main-nav__toggle {
@@ -23,7 +22,7 @@
 .main-nav__item>a {
   margin-left: -10px;
   padding: 10px 10px 20px 10px;
-  color: white;  
+  color: white;
 }
 
 .main-nav__item>a:hover {
@@ -32,7 +31,7 @@
   border-radius: 15px 15px 0 0;
 }
 
-.main-nav__items>.main-nav__item:last-child>a:hover{
+.main-nav__items>.main-nav__item:last-child>a:hover {
   background-color: transparent;
 }
 
@@ -43,7 +42,7 @@
   margin-top: 20px;
   padding-top: 5px;
   background-color: #fcff19;
-  border-radius: 0 15px 15px 15px;  
+  border-radius: 0 15px 15px 15px;
 }
 
 .main-nav__sub-item>a {
@@ -55,3 +54,68 @@
 .main-nav__items>li:hover .main-nav__sub-items {
   display: block;
 }
+
+// @media (min-width: 300px) {
+//   .main-nav__items {
+//     display: flex;
+//   }
+//   .main-nav__toggle {
+//     display: block;
+//     position: absolute;
+//     top: 7px;
+//     right: 0;
+//     z-index: 2;
+//     display: block;
+//     width: 70px;
+//     height: 50px;
+//     font-size: 0;
+//     background-color: transparent;
+//     cursor: pointer;
+//     border: none;
+//   }
+//   .main-nav--closed .main-nav__toggle::before {
+//     content: "";
+//     position: absolute;
+//     top: 0;
+//     left: 50px;
+//     width: 20px;
+//     height: 2px;
+//     background-color: white;
+//     box-shadow: 0 5px 0 0 white, 0 10px 0 0 white;
+//   }
+//   .main-nav--opened .main-nav__toggle {
+//     top: 7px;
+//     right: 0;
+//     &::before,
+//     &::after {
+//       content: "";
+//       position: absolute;
+//       top: 0;
+//       left: 50px;
+//       width: 20px;
+//       height: 2px;
+//       background-color: white;
+//     }
+//     &::before {
+//       transform: rotate(45deg);
+//       box-shadow: none;
+//     }
+//     &::after {
+//       transform: rotate(-45deg);
+//     }
+//   }
+//   .main-nav--closed .main-nav__items {
+//     display: none;
+//   }
+//   .main-nav--opened .main-nav__items {
+//     position: absolute;
+//     top: 50px;
+//     right: 0;
+//     left: 0;
+//     background-color: transparent;
+//     transition: all 0.4s ease;
+//   }
+//   .main-nav--nojs .main-nav__toggle {
+//     display: none;
+//   }
+// }

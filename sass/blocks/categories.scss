@@ -73,3 +73,45 @@
   font-weight: 300;
   color: white;
 }
+
+@media (min-width: 768px) and (max-width: 1600px) {
+  .categories {
+    height: 50vh;
+  }
+  .categories__wrapper {
+    width: calc(100vw - 10%);
+  }
+  .categories__title {
+    padding-top: 30px;
+  }
+  .categories__items {
+    margin-top: 15vh;
+  }
+  .categories__item {
+    min-width: 173px;
+  }
+  .categories__item::before {
+    content: "";
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 144px 0 0 173px;
+    border-color: transparent transparent transparent rgba(252, 255, 25, 0.17);
+  }
+  .categories__field {
+    width: 173px;
+    left: 0;
+    top: 15%;
+    font-size: 14px;
+  }
+  .categories__value {
+    width: 173px;
+    left: 0;
+    top: 35%;
+    font-size: 12px;
+  }
+}

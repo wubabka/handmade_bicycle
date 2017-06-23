@@ -5,7 +5,7 @@
 
 .slider__slide {
   position: absolute;
-  width: 100vw;  
+  width: 100vw;
   height: 100vh;
 }
 
@@ -53,4 +53,17 @@
   width: 100vw;
   position: fixed;
   left: 0;
+}
+
+@media (min-width: 768px) and (max-width: 1600px) {
+  .slider {
+    height: 40vh;
+  }
+  .slider__slide {
+    height: 40vh;
+  }
+  .slider__prev,
+  .slider__next {
+    top: 25vw;
+  }
 }
